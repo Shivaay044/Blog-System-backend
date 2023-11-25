@@ -7,6 +7,7 @@ const bcrypt = require("bcrypt")
 
 router.post("/register", async(req,res)=>{
     try {
+      
         const {name,email,password} = req.body;
         const checkUserAlreadyExist = await authModel.findOne({email})
 
