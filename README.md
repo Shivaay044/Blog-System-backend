@@ -7,9 +7,9 @@
 ## BaseURL : `http://localhost:8080`
 
 ### Register Routes
-## Register : `/register`
+## Register : `/auth/register`
 ## method : post
 
 ### Login Routes
-## Login : `/login`
+## Login : `/auth/login`
 ## method : post
